@@ -3,5 +3,5 @@
 Permettre aux techniciens de recevoir une alerte immédiate lorsqu'un serveur tombe en panne.
 ## 2. Exigences fonctionnelles
 - **Exigence 1 :** Le système doit détecter la panne d'un serveur via une sonde SNMP.
-- **Exigence 2 :** Le système doit envoyer un email au technicien responsable.
+- **Exigence 2 :** Le système doit envoyer un email au technicien responsable **dans les 30 secondes suivant la détection de la panne**.
 - **Exigence 3 :** L'email doit contenir le nom du serveur et l'heure de la panne.
